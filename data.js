@@ -43,9 +43,9 @@ var APP_DATA = {
           "title": "Living Room",
           "text": "Some Descriptions"
         }
-      ]
+      ], "skypeHotspots": []
     },
-    {
+     {
       "id": "1-point-a",
       "name": "Point A",
       "levels": [
@@ -87,7 +87,8 @@ var APP_DATA = {
           "target": "3-point-e"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "skypeHotspots": []
     },
     {
       "id": "2-point-l",
@@ -126,19 +127,19 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 2.5708877871589717,
-          "pitch": -0.43270819929633575,
-          "title": "Skype Superman",
-          "text": "BlaBlaBla"
-        },
+       
         {
           "yaw": 2.5765800563665167,
           "pitch": -0.25880972844589323,
           "title": "Washroom",
           "text": "Descriptions Washroom"
         }
-      ]
+      ], "skypeHotspots": [{
+          "yaw": 2.5708877871589717,
+          "pitch": -0.43270819929633575,
+          "title": "Skype Superman",
+          "text": "BlaBlaBla"
+        }]
     },
     {
       "id": "3-point-e",
@@ -182,7 +183,8 @@ var APP_DATA = {
           "target": "4-point-f"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "skypeHotspots": []
     },
     {
       "id": "4-point-f",
@@ -226,7 +228,8 @@ var APP_DATA = {
           "target": "5-point-g"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "skypeHotspots": []
     },
     {
       "id": "5-point-g",
@@ -276,7 +279,8 @@ var APP_DATA = {
           "target": "6-point-h"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "skypeHotspots": []
     },
     {
       "id": "6-point-h",
@@ -338,7 +342,8 @@ var APP_DATA = {
           "target": "9-point-k"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "skypeHotspots": []
     },
     {
       "id": "7-point-i",
@@ -377,19 +382,20 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -0.5726711713559247,
-          "pitch": -0.3783790346766427,
-          "title": "Owner Skype",
-          "text": "Philips"
-        },
+       
         {
           "yaw": -0.3300535148178767,
           "pitch": 0.21944584348861085,
           "title": "Room1",
           "text": "Descriptions"
         }
-      ]
+      ],
+      "skypeHotspots": [ {
+          "yaw": -0.5726711713559247,
+          "pitch": -0.3783790346766427,
+          "title": "Owner Skype",
+          "text": "Philips"
+        }]
     },
     {
       "id": "8-point-j",
@@ -428,19 +434,20 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -0.48653812980344213,
-          "pitch": -0.4766306942071843,
-          "title": "Skype RadioShack",
-          "text": "BlaBlaBla"
-        },
+       
         {
           "yaw": 0,
           "pitch": 0,
           "title": "Room2",
           "text": "Descriptions 2"
         }
-      ]
+      ],
+      "skypeHotspots": [ {
+          "yaw": -0.48653812980344213,
+          "pitch": -0.4766306942071843,
+          "title": "Skype RadioShack",
+          "text": "BlaBlaBla"
+        }]
     },
     {
       "id": "9-point-k",
@@ -486,18 +493,18 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -0.5534440498734483,
-          "pitch": -0.34041367007585066,
-          "title": "Skype Alex",
-          "text": "BlaBlaBla"
-        },
-        {
           "yaw": -0.19119447113019383,
           "pitch": 0.034787047625979284,
           "title": "Room3",
           "text": "Description 3"
         }
-      ]
+      ],
+      "skypeHotspots": [
+	  {"yaw": -0.5534440498734483,
+          "pitch": -0.34041367007585066,
+          "title": "Skype Alex",
+          "text": "BlaBlaBla"
+        }]
     }
   ],
   "name": "Demo",
